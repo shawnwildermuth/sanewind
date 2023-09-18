@@ -1,6 +1,6 @@
 {
   "name": "@shawnwildermuth/sanewind",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A minimal, sane defaults for headers, forms and buttons in the form of a TailwindCSS plugin.",
   "main": "src/index.js",
   "scripts": {
