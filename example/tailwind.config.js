@@ -1,4 +1,4 @@
-const sanewind = require("@wilderminds/sanewind");
+const sanewind = require("@shawnwildermuth/sanewind");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
