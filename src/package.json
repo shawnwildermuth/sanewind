@@ -1,0 +1,26 @@
+{
+  "name": "@wilderminds/sanewind",
+  "version": "0.0.1",
+  "description": "A minimal, sane defaults for headers, forms and buttons in the form of a TailwindCSS plugin.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawnwildermuth/sandwind.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "defaults"
+  ],
+  "author": "Shawn Wildermuth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shawnwildermuth/sandwind/issues"
+  },
+  "homepage": "https://github.com/shawnwildermuth/sandwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
