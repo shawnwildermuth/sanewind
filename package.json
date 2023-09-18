@@ -19,6 +19,11 @@
   "bugs": {
     "url": "https://github.com/shawnwildermuth/sanewind/issues"
   },
+  "files": [
+    "src/index.js",
+    "readme.md"
+
+  ],
   "homepage": "https://github.com/shawnwildermuth/sanewind#readme",
   "devDependencies": {
     "tailwindcss": "^3.3.3"
