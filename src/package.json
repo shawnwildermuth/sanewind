@@ -1,5 +1,5 @@
 {
-  "name": "@wilderminds/sanewind",
+  "name": "@shawnwildermuth/sanewind",
   "version": "0.0.1",
   "description": "A minimal, sane defaults for headers, forms and buttons in the form of a TailwindCSS plugin.",
   "main": "index.js",

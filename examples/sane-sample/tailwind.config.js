@@ -1,4 +1,4 @@
-const sandwind = require("@wilderminds/sanewind");
+const sanewind = require("@wilderminds/sanewind");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -8,6 +8,6 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [sandwind]
+  plugins: [sanewind]
 }
 
