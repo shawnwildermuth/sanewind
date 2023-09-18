@@ -16,13 +16,9 @@
   ],
   "author": "Shawn Wildermuth",
   "license": "Unlicense",
-  "files": [
-    "./logo.png"
-  ],
   "bugs": {
     "url": "https://github.com/shawnwildermuth/sanewind/issues"
   },
-  "logo": { "file": "./logo.png" },
   "homepage": "https://github.com/shawnwildermuth/sanewind#readme",
   "devDependencies": {
     "tailwindcss": "^3.3.3"
