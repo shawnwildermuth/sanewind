@@ -1,4 +1,4 @@
-![Sane Wind Logo](./logo-sm.png)
+![Sane Wind Logo](https://github.com/shawnwildermuth/sanewind/raw/main/logo-sm.png)
 
 # SaneWind
 
@@ -12,7 +12,7 @@ This isn't meant to replace existing plugins like @tailwindcss/typography and @t
 
 If you have other elements that need a sane default, feel free to PR or add an Issue - but keep in mind that it needs to be a simple default look, not a specific stylized look and feel. That's not what this is here for.
 
-![Example](./sane.png)
+![Example](https://github.com/shawnwildermuth/sanewind/raw/main/sane.png)
 
 ## Installation
 
