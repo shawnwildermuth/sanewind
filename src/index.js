@@ -13,16 +13,28 @@ function register({ addBase, theme }) {
     '&:focus': {
       borderWidth: 2,
     },
+    '&:disabled': {
+      backgroundColor: theme('colors.gray.200'),
+      color: theme('colors.gray.400')
+    }
   }
 
   const buttonStyles = {
     fontSize: theme('fontSize.sm'),
     padding: theme('padding.2'),
+    margin: theme('margin.1'),
     borderRadius: theme('spacing.1'),
-    backgroundColor: theme('colors.gray.500'),
+    backgroundColor: theme('colors.blue.700'),
     color: theme('colors.white'),
     '&:hover': {
       filter: "brightness(1.25)",
+    },
+    '&:disabled': {
+      backgroundColor: theme('colors.gray.500'),
+      color: theme('colors.gray.600'),
+      '&:hover': {
+        filter: "brightness(1)",
+      },
     },
   }
 
@@ -32,6 +44,7 @@ function register({ addBase, theme }) {
     h3: { fontSize: theme('fontSize.2xl'), fontWeight: theme('fontWeight.bold') },
     h4: { fontSize: theme('fontSize.xl'), fontWeight: theme('fontWeight.bold') },
     button: buttonStyles,
+    "[type='button']": buttonStyles,
     "[type='submit']": buttonStyles,
     "[type='text']": formStyles,
     'input:where(:not([type]))': formStyles,

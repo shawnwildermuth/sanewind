@@ -8,6 +8,6 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [sanewind]
+  plugins: [/*sanewind*/require("../src/index.js")]
 }
 

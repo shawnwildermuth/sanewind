@@ -11,6 +11,8 @@
         <div>
           <label>Empty</label>
           <input />
+          <label>Disabled</label>
+          <input disabled value="none" />
           <label>Text</label>
           <input type="text" />
           <label>Email</label>
@@ -68,6 +70,8 @@
 
           <label>Button</label>
           <button type="submit">Submit</button>
+          <button type="button">Type=Button</button>
+          <button type="button" disabled>Disabled Button</button>
         </div>
       </div>
     </form>
